@@ -1,4 +1,4 @@
-/* 1. Identify the header, main, and footer of your page. */
+/* 1. Identify the header, main, and footer of your page and add a skip to content link. */
 
 /** DONE IN HTML **/
 
@@ -15,25 +15,6 @@ footer{
 /* 2. Add the paragraph and link tags */
 
 /** DONE IN HTML **/
-
-/* 3. Add a skip to content link */
-
-a.skip{
-    background: white;
-    left: 0;
-    padding: 6px;
-    position: absolute;
-    top: -40px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-  }
-  
-  a.skip:focus{
-    top:20px;
-    color: black;
-    text-decoration-style: solid;
-  }
 
 /* 4. Style the links to in your site - make sure to indicate which one is the current page */
 
